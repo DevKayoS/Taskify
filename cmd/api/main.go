@@ -1,7 +1,6 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("hello world")
+	// TODO: terminar o restante da configuracao do projeto
+	// app := api.Application{}
 }
