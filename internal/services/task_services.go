@@ -14,7 +14,6 @@ func NewTaskService(store store.TaskStore) *TaskService {
 
 func (s *TaskService) CreateTask(title, description string, priority int32) (store.Task, error) {
 	// TODO: adicionar regra de negocio aqui
-
 	task, err := s.Store.CreateTask(title, description, priority)
 
 	if err != nil {
